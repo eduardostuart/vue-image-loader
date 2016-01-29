@@ -1,3 +1,9 @@
+/**
+ * vue-image-loader v1.0.2
+ * https://github.com/eduardostuart/vue-image-loader
+ * MIT License
+ */
+
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();

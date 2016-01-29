@@ -1,5 +1,3 @@
-'use strict'
-
 import VueImageLoader from './VueImageLoader.vue'
 
 export function install(Vue, options) {
