@@ -11,10 +11,10 @@ npm install vue-image-loader --save
 ## Usage
 
 ```js
-
-import VueImageLoader from 'vue-image-loader'
-
-Vue.use(VueImageLoader); // or Vue.use(window.VueImageLoader)
+// Default timeout: 2 (optional)
+Vue.use(require('vue-image-loader'),{
+    timeout:2
+}); // or Vue.use(window.VueImageLoader)
 ```
 
 
