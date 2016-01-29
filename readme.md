@@ -1,6 +1,6 @@
 # Vue Image Loader
 
-A better way to load images using Vue.js
+Async image loader plugin for Vue.js
 
 ## Installation
 
