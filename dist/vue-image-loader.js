@@ -1,5 +1,5 @@
 /**
- * vue-image-loader v1.0.2
+ * vue-image-loader v1.0.4
  * https://github.com/eduardostuart/vue-image-loader
  * MIT License
  */
@@ -76,6 +76,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	function install(Vue, options) {
 
 	    _VueImageLoader2.default.mixins = _VueImageLoader2.default.mixins || [];
+
+	    options = options || {};
 
 	    _VueImageLoader2.default.mixins.push({
 	        props: {

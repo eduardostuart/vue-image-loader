@@ -4,6 +4,8 @@ export function install(Vue, options) {
 
     VueImageLoader.mixins = VueImageLoader.mixins || [];
 
+    options = options || {};
+
     VueImageLoader.mixins.push({
         props:{
             timeout:{
