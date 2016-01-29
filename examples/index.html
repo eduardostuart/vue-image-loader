@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vue Image Loader -  Example</title>
+    <!-- beautify demo.. you don't need to add bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./example.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h2>Vue Image Loader</h2>
+            <small>Images from unsplash.com</small>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <h5>Success</h5>
+                <image-loader
+                    src="https://images.unsplash.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
+                    alt="Awesome!">
+                </image-loader>
+            </div>
+            <div class="col-sm-4">
+                <h5>Error (using default timeout - 2s)</h5>
+                <image-loader
+                    src="https://images.unsxxplash.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
+                    alt="Awesome!">
+                </image-loader>
+            </div>
+            <div class="col-sm-4">
+                <h5>Error (using custom timeout - 10s)</h5>
+                <image-loader
+                    :timeout="10"
+                    src="https://images.unsplaxxsh.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
+                    alt="Awesome!">
+                </image-loader>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="../index.js"></script>
+    <script src="./example.js"></script>
+
+</body>
+</html>
