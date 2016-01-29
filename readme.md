@@ -29,4 +29,4 @@ Check /examples for more
 
 ## License
 
-MIT © (Eduardo Stuart)[https://twitter.com/eduardostuart]
+MIT © [Eduardo Stuart](https://twitter.com/eduardostuart)
