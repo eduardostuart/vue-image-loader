@@ -2,6 +2,10 @@
 
 Async image loader plugin for Vue.js
 
+## Demo
+
+[Live demo](http://eduardostuart.github.io/vue-image-loader/)
+
 ## Installation
 
 ```
