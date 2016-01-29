@@ -19,10 +19,10 @@ Vue.use(VueImageLoader); // or Vue.use(window.VueImageLoader)
 
 
 ```html
-    <image-loader
-        src="myimage.gif"
-        alt="Awesome!">
-    </image-loader>
+<image-loader
+    src="myimage.gif"
+    alt="Awesome!">
+</image-loader>
 ```
 
 Check /examples for more
