@@ -14,29 +14,21 @@
 
         <div class="page-header">
             <h2>Vue Image Loader</h2>
-            <small>Images from unsplash.com</small>
         </div>
 
         <div class="row">
             <div class="col-sm-4">
-                <h5>Success</h5>
-                <image-loader
-                    src="https://images.unsplash.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
-                    alt="Awesome!">
-                </image-loader>
-            </div>
-            <div class="col-sm-4">
-                <h5>Error (using default timeout - 2s)</h5>
-                <image-loader
-                    src="https://images.unsxxplash.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
-                    alt="Awesome!">
-                </image-loader>
-            </div>
-            <div class="col-sm-4">
-                <h5>Error (using custom timeout - 10s)</h5>
+                <h5>Using custom timeout - 10 seconds</h5>
                 <image-loader
                     :timeout="10"
-                    src="https://images.unsplaxxsh.com/photo-1437376576540-236661ddb41f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy"
+                    src="http://lorempixel.com/600/600/sports/1/"
+                    alt="Awesome!">
+                </image-loader>
+            </div>
+            <div class="col-sm-4">
+                <h5>Using default timeout - 1 second</h5>
+                <image-loader
+                    src="http://lorempixel.com/1900/1900/sports/1/"
                     alt="Awesome!">
                 </image-loader>
             </div>
