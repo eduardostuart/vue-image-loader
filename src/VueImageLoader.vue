@@ -1,7 +1,7 @@
 <template>
     <div class="image-loader">
         <div class="image-loader-info" v-if="loadInfo && isLoading">{{ loadInfo }}</div>
-        <div class="image-loader-error" v-if="loadError && !success">{{ loadError }}</div>
+        <div class="image-loader-error" v-if="loadError && !success && !isLoading">{{ loadError }}</div>
         <img v-bind='{"src":src,"alt":alt}' v-el:image class="image" v-show="!isLoading && success">
     </div>
 </template>
