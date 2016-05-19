@@ -117,7 +117,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/eduardostuart/Code/Projects/vue-image-loader/src/VueImageLoader.vue"
+	  var id = "/Users/Eric/Code/vue-image-loader/src/VueImageLoader.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -195,7 +195,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 3 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<div class=\"image-loader\">\n    <div class=\"image-loader-info\" v-if=\"loadInfo && isLoading\">{{ loadInfo }}</div>\n    <div class=\"image-loader-error\" v-if=\"loadError && !success\">{{ loadError }}</div>\n    <img v-bind='{\"src\":src,\"alt\":alt}' v-el:image class=\"image\" v-show=\"!isLoading && success\">\n</div>\n";
+	module.exports = "\n<div class=\"image-loader\">\n    <div class=\"image-loader-info\" v-if=\"loadInfo && isLoading\">{{ loadInfo }}</div>\n    <div class=\"image-loader-error\" v-if=\"loadError && !success && !isLoading\">{{ loadError }}</div>\n    <img v-bind='{\"src\":src,\"alt\":alt}' v-el:image class=\"image\" v-show=\"!isLoading && success\">\n</div>\n";
 
 /***/ }
 /******/ ])
